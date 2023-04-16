@@ -9,17 +9,17 @@
 <body>
     <p>ADOTANTE</p>
     <form action="cadastro.php" method="post">
-        <p>Nome: <input type="text" name="Nome"> Idade: <input type="text" name="Idade"></p>
-        <p>RG ou CNH: <input type="text" name="RG ou CNH"> CPF: <input type="text" name="CPF"></p>
-        <p>Endereço completo: <textarea name="Endereço completo"></textarea></p>
-        <p>E-mail: <input type="text" name="Email"></p>
+        <p>Nome: <input type="text" name="Nome" required> Idade: <input type="text" name="Idade" required></p>
+        <p>RG ou CNH: <input type="text" name="RG ou CNH"> CPF: <input type="text" name="CPF" required></p>
+        <p>Endereço completo: <textarea name="Endereço completo" required></textarea></p>
+        <p>E-mail: <input type="email" name="E-mail" required></p>
         <p>DDD: <input type="text" name="DDD"> Celular: <input type="text" name="Celular"><input type="radio" name="Autorizo entrar em contato comigo pelo Whatsapp"> Autorizo entrar em contato comigo pelo Whatsapp.</p>
         <p>Estado Civil:
             <input type="radio" name="Estado Civil" value="Solteiro"> Solteiro
             <input type="radio" name="Estado Civil" value="Casado ou em Relação Estável"> Casado ou em Relação Estável
         </p>
-        <p>Quantas pessoas moram na residência? (Indique o grau de parentesco e suas respectivas idades). <textarea name="Quantas pessoas moram na residência? (Indique o grau de parentesco e suas respectivas idades)."></textarea></p>
-        <p><input type="radio" name="Possuo autorização de todos em casa para adoção"> Possuo autorização de todos em casa para adoção.</p>
+        <p>Quantas pessoas moram na residência? (Indique o grau de parentesco e suas respectivas idades). <textarea name="Quantas pessoas moram na residência? (Indique o grau de parentesco e suas respectivas idades)." required></textarea></p>
+        <p><input type="radio" name="Possuo autorização de todos em casa para adoção" required> Possuo autorização de todos em casa para adoção.</p>
         <p>Há outros animais na casa?</p>
         <p>
             <input type="radio" name="Há outros animais na casa?" value="Sim"> Sim
@@ -81,8 +81,8 @@
             <input type="radio" name="Dispõe de 2 (duas) horas mensais para participar de reuniões e palestras?" value="Sim"> Sim
             <input type="radio" name="Dispõe de 2 (duas) horas mensais para participar de reuniões e palestras?" value="Não"> Não
         </p>
-        <p><input type="radio" name="Comprometo-me a seguir o calendário de vacinas e antiparasitários."> Comprometo-me a seguir o calendário de vacinas e antiparasitários.</p>
-        <p><input type="radio" name="Comprometo-me a autorizar o procedimento de castração, caso seja indicado pela equipe."> Comprometo-me a autorizar o procedimento de castração, caso seja indicado pela equipe.</p>
+        <p><input type="radio" name="Comprometo-me a seguir o calendário de vacinas e antiparasitários." required> Comprometo-me a seguir o calendário de vacinas e antiparasitários.</p>
+        <p><input type="radio" name="Comprometo-me a autorizar o procedimento de castração, caso seja indicado pela equipe." required> Comprometo-me a autorizar o procedimento de castração, caso seja indicado pela equipe.</p>
         <p>Deseja adicionar algum comentário? <textarea name="Deseja adicionar algum comentário?"></textarea>
     <p><button>Próximo</button></p>
     </form>
