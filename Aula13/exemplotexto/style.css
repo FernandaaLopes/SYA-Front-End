@@ -1,0 +1,15 @@
+body {background-color: #f5e9dcad;}
+.titulo {
+    font-size: 50px;
+    color: deeppink;
+    text-align: center;
+    font-family: 'Ysabeau', 'Barlow',  sans-serif;
+    font-weight: bolder;
+}
+.texto {
+    font-size: 30px;
+    color: rosybrown;
+    text-align: justify;
+    font-family:'Arial', monospace;
+    font-weight: normal;
+}
