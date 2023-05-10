@@ -1,0 +1,83 @@
+@media (min-width: 481px)
+{
+    body 
+    {
+        background-color: #f2d1b398;
+        color: #4b2f28;
+        font-family: 'Barlow', sans-serif;
+        font-size: 13px;
+        font-weight: bold;
+        box-sizing: border-box;
+        width: 700px;
+        margin: 5% auto;
+        padding: 15px;
+    }
+}
+#titleid
+{
+    font-weight: bolder;
+    font-size: 18px;
+}
+#adotanteid
+{
+    font-size: 15px;
+}
+#ddd
+{
+    box-sizing: border-box;
+    width: 5%;
+    margin-left: 0.8%;
+}
+#reside
+{
+    box-sizing: border-box;
+    width: 90%;
+    height: 80px;
+    margin: 2% auto;
+}
+#coment
+{
+    box-sizing: border-box;
+    width: 90%;
+    height: 100px;
+    margin: 2% auto;
+}
+#nome
+{
+    box-sizing: border-box;
+    margin: 5px;
+}
+#idade
+{
+    box-sizing: border-box;
+    margin: 5px;
+}
+#rg
+{
+    box-sizing: border-box;
+    margin: 5px;
+}
+#cpf
+{
+    box-sizing: border-box;
+    margin: 5px;
+}
+#endereco
+{
+    box-sizing: border-box;
+    width: 90%;
+    height: 50px;
+    margin: 1% auto;
+}
+#email
+{
+    box-sizing: border-box;
+    margin: 5px;
+}
+#cel
+{
+    box-sizing: border-box;
+    width: 30%;
+    height: 25px;
+    margin: 5px;
+}

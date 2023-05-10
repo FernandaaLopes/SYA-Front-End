@@ -1,0 +1,11 @@
+    header
+    {text-align: center}
+    body 
+    {
+        background-color: antiquewhite;
+        color:#4b2f28;
+        font-family: 'Manrope', 'Dosis', sans-serif;
+        font-size: 15px;
+        text-align: justify;
+        margin: 15%;
+    }

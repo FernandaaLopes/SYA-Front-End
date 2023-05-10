@@ -1,0 +1,14 @@
+@media (min-width: 769px)
+{
+    header
+    {text-align: center;}
+    body 
+    {
+        background-color: antiquewhite;
+        color:#4b2f28;
+        font-family: 'Manrope', 'Dosis', sans-serif;
+        font-size: 20px;
+        text-align: justify;
+        margin: 15%;
+    }
+}

@@ -1,0 +1,9 @@
+@media (min-width: 1200px)
+{ body
+{
+    font-size: 8rem;
+    background-color: yellow;
+    color: black;
+    font-family: Berkshire Swash; cursive;
+}
+}

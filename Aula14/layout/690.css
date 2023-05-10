@@ -1,0 +1,9 @@
+@media (min-width: 690px)
+{ body 
+{
+    font-size: 5rem;
+    background-color: purple;
+    color: whitesmoke;
+    font-family: Ubuntu Mono; monospace;
+}
+}
