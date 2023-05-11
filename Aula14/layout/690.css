@@ -4,6 +4,6 @@
     font-size: 5rem;
     background-color: purple;
     color: whitesmoke;
-    font-family: Ubuntu Mono; monospace;
+    font-family: Ubuntu Mono, monospace;
 }
 }

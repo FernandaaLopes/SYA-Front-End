@@ -5,27 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário</title>
-    <link rel="stylesheet" href="mobile.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="others.css">
 </head>
 <body class="bodybox">
-    <h3 id="titleid">Formulário de triagem para entrevista da adoção assistida</h3>
-    <p id="adotanteid">ADOTANTE</p>
+    <h3 class="title"">Formulário de triagem para entrevista da adoção assistida</h3>
+    <p class="title"">ADOTANTE</p>
     <form action="cadastro.php" method="post">
-        <p><label for="nome">Nome:</label><input type="text" name="nome" id="nome" required></p> 
-        <p><label for="idade">Idade:</label><input type="number" name="idade" id="idade" required></p>
-        <p><label for="rg">RG ou CNH:</label><input type="text" name="rg" id="rg"></p>
-        <p><label for="cpf">CPF:</label><input type="text" name="cpf" id="cpf" required></p>
-        <p><label for="endereco">Endereço completo:</label><input type="text" name="endereco" id="endereco"></p>
-        <p><label for="email">E-mail:</label><input type="email" name="email" id="email" required></p>
-        <p><label for="ddd">DDD:</label><input type="text" name="ddd" id="ddd">
-        <label for="cel">Celular:</label><input type="text" name="celular" id="cel"></p>
+        <p><label for="nome">Nome:</label><input type="text" name="nome" id="nome" class="box" required></p> 
+        <p><label for="idade">Idade:</label><input type="number" name="idade" id="idade" class="box" required></p>
+        <p><label for="rg">RG ou CNH:</label><input type="text" name="rg" id="rg" class="box"></p>
+        <p><label for="cpf">CPF:</label><input type="text" name="cpf" id="cpf" class="box" required></p>
+        <p><label for="endereco">Endereço completo:</label><textarea name="endereco" id="endereco" class="biggerbox"></textarea>
+        <p><label for="email">E-mail:</label><input type="email" name="email" id="email" class="box" required></p>
+        <label for="cel">Celular (com DDD):</label><input type="text" name="celular" id="cel" class="box"></p>
         <p><input type="radio" name="autorizo_contato"id="contato"> <label for="contato">Autorizo entrar em contato comigo pelo Whatsapp.</label></p>
         <p>Estado Civil:
             <input type="radio" name="estado_civil" value="solteiro" id="civil_solteiro"> <label for="civil_solteiro">Solteiro</label>
             <input type="radio" name="estado_civil" value="casado" id="civil_casado"> <label for="civil_casado">Casado ou em Relação Estável</label>
         </p>
-        <p><label for="reside">Quantas pessoas moram na residência? (Indique o grau de parentesco e suas respectivas idades).</label><textarea name="quantas_pessoas_moram" id="reside" required></textarea></p>
+        <p><label for="reside">Quantas pessoas moram na residência? (Indique o grau de parentesco e suas respectivas idades).</label><textarea name="quantas_pessoas_moram" id="reside" class="biggerbox" required></textarea></p>
         <p><input type="radio" name="autoriza_casa_adoção" id="autorizado" required><label for="autorizado"> Possuo autorização de todos em casa para adoção.</label></p>
         <p>Há outros animais na casa?</p>
         <p>
@@ -90,7 +89,7 @@
         </p>
         <p><input type="radio" name="comprometo_vacinas" id="vacina" required><label for="vacina">Comprometo-me a seguir o calendário de vacinas e antiparasitários.</label></p>
         <p><input type="radio" name="comprometo_castrar" id="castrar" required><label for="castrar">Comprometo-me a autorizar o procedimento de castração, caso seja indicado pela equipe.</label></p>
-        <p><label for="coment">Deseja adicionar algum comentário?</label> <textarea name="coment" id="coment"></textarea>
+        <p><label for="coment">Deseja adicionar algum comentário?</label> <textarea name="coment" id="coment" class="biggerbox"></textarea>
     <p><button>Próximo</button></p>
     </form>
 </body>
