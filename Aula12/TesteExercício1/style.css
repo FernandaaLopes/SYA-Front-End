@@ -1,0 +1,18 @@
+body 
+{
+    background-color: #fad8de;
+    color: crimson;
+    font-family: 'Castoro Tiltling', 'Noto Serif Japanese', serif;
+    font-size: 50 px;
+    align-self: center;
+    text-decoration: underline;
+}
+.titlebox 
+{
+    box-sizing: border-box;
+    width: 300px;
+    height: 400px;
+    border: 15px;
+    margin: 10% auto;
+    padding: 20px;
+}
