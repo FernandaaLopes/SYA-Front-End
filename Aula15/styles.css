@@ -1,3 +1,50 @@
-<!-- Your #image should use max-width and height properties to resize responsively,
+/* Your #image should use max-width and height properties to resize responsively,
 relative to the width of its parent element, without exceeding its original size. 
-Your img element should be centered within its parent element -->
+Your img element should be centered within its parent element */
+
+/* Color Theme Swatches in Hex */
+.Santa-Rita-Lee-2-hex { color: #D8BE62; }
+.Santa-Rita-Lee-1-hex { color: #6ba57e; }
+.Santa-Rita-Lee-3-hex { color: #F2D0A5; }
+.Santa-Rita-Lee-4-hex { color: #F09F6F; }
+.Santa-Rita-Lee-5-hex { color: #bf2d21; }
+
+/* Color Theme Swatches in Hex */
+.Rita-Lee-no-Credicard-Hall-2010-Colorful-1-hex { color: #260104; }
+.Rita-Lee-no-Credicard-Hall-2010-Colorful-2-hex { color: #730217; }
+.Rita-Lee-no-Credicard-Hall-2010-Colorful-3-hex { color: #8C4303; }
+.Rita-Lee-no-Credicard-Hall-2010-Colorful-4-hex { color: #F29C50; }
+.Rita-Lee-no-Credicard-Hall-2010-Colorful-5-hex { color: #F24405; }
+.Rita-Lee-no-Credicard-Hall-2010-Colorful-5-hex { color: #F1D6BC; }
+
+/* Color Theme Swatches in Hex */
+.Rita-Lee-no-Credicard-Hall-2010-Soft-1-hex { color: #730217; }
+.Rita-Lee-no-Credicard-Hall-2010-Soft-2-hex { color: #8C4303; }
+.Rita-Lee-no-Credicard-Hall-2010-Soft-3-hex { color: #D98943; }
+.Rita-Lee-no-Credicard-Hall-2010-Soft-4-hex { color: #F2D8C2; }
+.Rita-Lee-no-Credicard-Hall-2010-Soft-5-hex { color: #0D0D0D; }
+
+
+
+
+
+body
+{
+background-color: #f7ece3;
+min-width: 290px;
+text-align: justify;
+}
+h1 
+{
+text-align: center;
+color: #d11f0f;;
+}
+h2 
+{
+text-align: center;
+color: #d3aa14;
+}
+img {
+    width: 150px;
+    text-align: center;
+}
