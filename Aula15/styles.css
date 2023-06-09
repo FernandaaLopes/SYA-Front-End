@@ -22,18 +22,22 @@
 
 
 
-
-
-body
+.main
 {
 background-color: #f7ece3;
-min-width: 290px;
+width: 80%;
+max-width: 900px;
+margin-left: auto;
+margin-right: auto;
+padding: 20px;
+line-height: 1.9;
+font-family: Arial, Helvetica, sans-serif;
 text-align: justify;
 }
 h1 
 {
 text-align: center;
-color: #d11f0f;;
+color: #d11f0f;
 }
 h2 
 {
@@ -44,11 +48,15 @@ color: #d3aa14;
 relative to the width of its parent element, without exceeding its original size. 
 Your img element should be centered within its parent element */
 img {
-    max-width: px;
-    max-height: px;
+    max-width: 30%;
+    max-height:30%;
     align-items: center;
     display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%
 }
+a {
+    color: black;
+  }
+a:hover {color:red}
