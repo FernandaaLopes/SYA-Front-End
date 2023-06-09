@@ -73,10 +73,6 @@ a:hover {
   filter: grayscale(100%);
 }
 
-.item:nth-of-type {
-  transform: scale(0.8, 0.8) transition: all 0.35s;
-}
-
 .item:hover {
   filter: none;
   transform: scale(1, 1);
